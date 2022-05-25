@@ -1,0 +1,44 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+   
+}
+
+.container2 {
+    height: 60vh;
+    padding-left: 900px;
+    background-color: #AAB3CD;
+    padding-right: 900px;
+   
+}
+
+
+.txt{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 40px ;
+}
+
+p {
+    font-size: 40px;
+    color: white;
+}
+.container3 {
+    height: 60vh;
+    padding-left: 900px;
+    background-color: #aacdba;
+    padding-right: 900px;
+   
+}
