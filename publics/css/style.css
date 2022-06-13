@@ -4,9 +4,7 @@
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-
-
-
+ 
 
 .container {
     height: 100vh;
@@ -14,40 +12,148 @@
     background-color: RGB(18, 19, 22);
 }
 
+
 /* ////////HEADER///// */
 
-header {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
+header { 
+    padding: 14px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     align-items: center;
     background-color: RGB(18, 19, 22);
-    height: 35px;
-    padding: 5px;
+    display: flex;
+    flex-direction: column-reverse;
 }
-
 
 
 .container nav {
     display: flex;
     flex-direction: row;
 }
+ 
 
 .container nav a {
-    margin-left: 50px;
     color: white;
     font-size: 19px;
     font-weight: 500;
     line-height: 16px;
     text-align: right;
     align-items: center;
-
 }
 
-/* ////////FIN HEADER///// */
 
-.container-two {
+.first-nav {
+    margin: 0;
+}
+
+
+.second-nav {
+    margin-left: 50px;
+}
+
+
+/* ////////CONTAINER BIO///// */
+
+
+.container-bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     height: 100vh;
     min-width: 1280px;
     background-color: red;
+}
+
+
+.content-bio {
+    width: 1042px;
+    height: 778px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+h3{
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+    color: white;
+}
+
+.memoji{
+    width: 350px;
+    height: 350px;
+}
+
+.bio-1 {
+    display: flex;
+    align-items: center;
+
+    padding-left: 20px;
+    height: 190px;
+    width: 100%;
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: pink;
+
+}
+.bio-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 20px;
+    height: 589px;
+    width: 597px;
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: violet;
+
+}
+.bio-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 589px;
+    width: 445px;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: blueviolet;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ////////CONTAINER PROJECT///// */
+
+.container-project {
+    height: 100vh;
+    min-width: 1280px;
+    background-color: blue;
+}
+
+
+
+
+/* ////////CONTAINER CONTACT///// */
+
+.container-contact {
+    height: 100vh;
+    min-width: 1280px;
+    background-color:darkviolet;
 }
