@@ -64,7 +64,7 @@ header {
 
     height: 100vh;
     min-width: 1280px;
-    background-color: red;
+    background-color: RGB(18, 19, 22);
 }
 
 
@@ -108,7 +108,6 @@ p {
     padding-left: 20px;
     height: 190px;
     grid-area: 1 / 1 / 2 / 3;
-    background-color: pink;
 
 }
 .bio-2 {
@@ -120,7 +119,6 @@ p {
     height: 589px;
     width: 597px;
     grid-area: 2 / 1 / 3 / 2;
-    background-color: violet;
 
 }
 .bio-3 {
@@ -131,7 +129,6 @@ p {
     height: 589px;
     width: 445px;
     grid-area: 2 / 2 / 3 / 3;
-    background-color: blueviolet;
 
 }
 
@@ -155,7 +152,7 @@ p {
 
     height: 100vh;
     min-width: 1280px;
-    background-color: rgb(127, 101, 101);
+    background-color: RGB(18, 19, 22);
 }
 
 
@@ -184,7 +181,6 @@ p {
     padding-left: 20px;
     height: 190px;
     grid-area: 1 / 1 / 2 / 3;
-    background-color: pink;
 
 }
 .project-2 {
@@ -195,7 +191,6 @@ p {
     width: 597px;
 
     grid-area: 2 / 2 / 3 / 3;
-    background-color: blueviolet;
 }
 
 .project-3 {
@@ -207,7 +202,6 @@ p {
     height: 589px;
     width: 445px;
     grid-area: 2 / 1 / 3 / 2;
-    background-color: violet;
 }
 
 
