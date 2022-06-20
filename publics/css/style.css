@@ -22,7 +22,8 @@ header {
     bottom: 0;
     width: 100%;
     align-items: center;
-    background-color: RGB(18, 19, 22);
+    /* background-color: RGB(18, 19, 22); */
+    background-color: black;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -70,7 +71,7 @@ header {
 
     height: 100vh;
     min-width: 1280px;
-    background-color: RGB(18, 19, 22);
+    background-color: black;
 }
 
 
@@ -168,7 +169,7 @@ p {
 
     height: 100vh;
     min-width: 1280px;
-    background-color: RGB(18, 19, 22);
+    background-color: black;
 }
 
 
